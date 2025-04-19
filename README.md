@@ -121,7 +121,11 @@ dist/
 ```
 
 ---
+## UI Demo
 
+![image](https://github.com/user-attachments/assets/a70fae2f-97e6-4c42-9c65-641a3d32a719)
+
+---
 ## 📄 License
 
 MIT License. Free to use and modify.
