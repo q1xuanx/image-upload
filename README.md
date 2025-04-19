@@ -21,7 +21,7 @@ With a passion for collecting dog images but limited disk space, I built a light
 upload_tool/
 ├── main.py                 # Entry point
 ├── service
-├───── uploader.py             # Image uploader class
+    ├───── uploader.py             # Image uploader class
 ├── .env                    # Your secret Cloudinary config (not committed)
 ├── .gitignore              # Excludes /build, /dist, .env, etc.
 ```
@@ -36,6 +36,8 @@ upload_tool/
   - `cloudinary`
   - `python-dotenv`
   - `tqdm`
+  - `pyfiglet` 
+  - `rich`
   - `pyinstaller` (for build application)
 
 ---
@@ -98,7 +100,7 @@ If you want to share the tool as a standalone Windows `.exe`:
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --icon=cloud-upload-alt.ico main.py
+pyinstaller main.py --onefile --icon=icon-app.ico --collect-submodules pyfiglet --collect-data pyfiglet --collect-submodules rich  --collect-data rich 
 ```
 
 > Output will be in `/dist/main.exe`
