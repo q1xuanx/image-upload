@@ -40,7 +40,7 @@ class uploader:
                                                             "quality": "auto"
                                                             }
                                                         )
-                print(f"Uploaded: {public_id}")
+                print(f"✅  Uploaded: {public_id}")
                 os.remove(i)
             except Exception as e: 
                 print(f"\n ❌ Failed to upload {i}: {e}")
