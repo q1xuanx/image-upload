@@ -43,9 +43,8 @@ upload_tool/
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/yourusername/cloudinary-uploader.git
-cd cloudinary-uploader
-pip install -r requirements.txt
+git clone https://github.com/q1xuanx/image-upload.git
+cd image-upload
 ```
 
 Create a `.env` file in the root folder:
